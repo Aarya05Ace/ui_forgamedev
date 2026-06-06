@@ -1,0 +1,26 @@
+# deps / build
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# env / secrets
+.env
+.env.*
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# NOTE: src/generated/ is intentionally NOT ignored — the SpacetimeDB TypeScript
+# bindings are committed so this front-end builds standalone (regenerate them with
+# `spacetime generate` against the game's server module if the schema changes).
